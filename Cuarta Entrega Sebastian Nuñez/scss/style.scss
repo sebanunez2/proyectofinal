@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Ovo', serif;;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+
+a:hover{
+    background: rgb(136, 97, 226);
+}
+
+
+.grid-container{  
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+  
+    
+}
+
+.grid-index{
+    width: 100%;
+    height: 168%;
+    border-radius: 10px;
+    position: relative;
+}
+
+img{
+    transition:all 0.3s linear;
+
+
+    
+}
+
+
+img:hover{
+    transform: scale(0.9);
+}
+
+
+p{
+    padding-top: 20px;
+    padding-left: 0px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+    padding: 30px;
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+}
+
+.divsize{
+    width: 210px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer div{
+    margin:auto;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+}
+
+.fontp{
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.grid-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+    justify-content: space-evenly;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.pcentro{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    padding-top: 190px;
+}
+
+.imgpadding{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.tamaño{
+    max-width: 80%;
+    max-height: 80%;
+    
+}
+
+
+
+footer div{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+footer{
+    color: black;
+}
+
+div a{
+    position:relative;
+    color: rgb(255, 255, 255);
+}
+
+
+.imgw{
+    width: 20%;
+    margin: auto;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100px;
+}
+
+.treinta{
+    width: 30%;
+}
+
+.veinte{
+    width: 20%;
+    padding-right: 30px;
+}
+
+.quince{
+    width: 15%;
+}
+ 
+/* Apartado Contactanos con sass */
+
+.Formulario{
+    width: 500px;
+    background-color: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Ovo', serif;
+    color: white;
+
+    h4{
+        font-size: 22px;
+        width: 110px;
+        margin-left: 165px;
+    }
+     
+    .controls{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+        border: 1px solid white;
+        font-size: 18px;
+    }
+    
+    
+    input{
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    .botons{
+        padding: 10px;
+        width: 100%;
+    }
+    
+    p{
+        color: white;
+        margin-left: 60px;
+        width: 320px;
+    }
+   
+    a{
+        text-decoration: none;
+    }
+        
+}
+
+
+
+body aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+aside{
+    background-color: rgb(255, 255, 255);
+    margin: 100px 20px 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    font-family: 'Ovo', serif;
+   
+
+    input{
+        width: 100%;
+        
+    }
+   
+} 
+
+
+.lp{
+    padding-left: 60px;
+}
+
+
